@@ -9,6 +9,10 @@ const Checkout = () => {
     const [activeStep, setActiveStep] = useState(0)
     const classes = useStyles()
 
+    const Form = () => {
+        
+    }
+
     return (
         <>
             <div className={ classes.toolbar } />
